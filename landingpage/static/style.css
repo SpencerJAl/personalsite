@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.banner{
+    width:100%;
+    height: 600px !important;
+    z-index: -2;
+}
+#filter{
+    width:100%;
+    height: 600px !important;
+    background-color: black;
+    opacity: 0.5;
+    color: black;
+    position: absolute;
+    z-index: -1;
+    margin-top:0;
+}
+.page-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border: 2px white solid;
+    z-index: 0;
+}
+#content-info{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    text-align: center;
+    color:#222233;
+    
+}
+nav {
+    background-color: darkgrey;
+}
+#mobile{
+    display:none;
+}
+
+#linkedin{
+    width:15px;
+    height:15px;
+}
+footer{
+    background-color: #505050 !important;
+}  
+ .input-field label {
+      color: #000;
+}
+
+.input-field input[type=text]:focus + label {
+     color: #000;
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field .prefix.active {
+     color: #000;
+}
+
+
+@media only screen and (max-width:1024px){
+    .banner{
+     height:150px ;
+    }
+    .btn{
+        background-color: darkgrey;
+    }
+    .desktop{
+        display:none;
+    }
+    #mobile{
+        display:block;        
+    }
+    #mobile h5{
+        float:left;
+    }
+    #btn{
+      float:right;
+      margin-right: 2px;
+    }
+    #side-hr{
+        width:90%;
+        margin:auto
+    }
+    #slide-out{
+        background-color: darkgrey;
+    }
+    #linkedin{
+        width:15%;
+        height: 50%;
+    }
+    #side-photo{
+        background-color:#646464 !important;
+    }
+    #side-photo img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circle{
+        border: 2px white solid;
+    }
+}
