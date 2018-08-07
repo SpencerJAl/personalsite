@@ -2,16 +2,32 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image:url(landingpage/media/code,jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
 }
-
+html, body{
+    height:100%;
+}
+#wrapper{
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
 main {
     flex: 1 0 auto;
 }
 .banner{
     width:100%;
-    height: 600px !important;
+    height: 100% !important;
     z-index: -2;
+    position: fixed;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 #filter{
     width:100%;
     height: 600px !important;
@@ -37,6 +53,23 @@ main {
     margin-top: 5px;
     text-align: center;
     color:#222233;
+    
+}
+#work-info{
+    background-color: #505050;
+    opacity: 0.8;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+}
+.content-info{
+   
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5px;
+    text-align: center;
+    color:#E5E5E5;
     
 }
 nav {
@@ -78,7 +111,7 @@ footer{
 
 .input-field .prefix.active {
      color: #000;
-}
+                                                                                                                                                                                                                       }
 
 
 @media only screen and (max-width:1024px){

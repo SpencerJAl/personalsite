@@ -27,6 +27,7 @@
         </script>
     </head>
     <body>
+        <header >
       <!-- Desktop Version of the navigation bar -->
                   <nav>
                     <div class="nav-wrapper desktop">
@@ -57,18 +58,22 @@
                     </p>
                     </div>
                   </nav>
-                  <header >
+                </header>
                       <div id="filter">
-                       <img class="responsive-img banner"src="../static/landingpage/media/code.jpg" alt="image of code"/>
+                       <img class="responsive-img banner"src="../static/landingpage/media/code.jpg" alt="image of code" style="position:fixed; height:100%;"/>
                       </div>
-                      
+          
                   <!-- adds in the unique content of each page -->
+                 
+                    <main>
            {% block content %}
 
            {% endblock %}
-           </header>
+           </main>
+        
+          
            <!-- Footer for pages -->
-           <footer class="page-footer">
+           <footer class="page-footer" id="footer">
               <div class="container footer-container">
                 <div class="row">
                   <div class="col l6 s12">
@@ -88,5 +93,6 @@
                 </div>
               </div>
             </footer>
+            </span>
     </body>
 </html>
