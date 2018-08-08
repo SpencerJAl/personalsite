@@ -18,5 +18,6 @@ def coding(request):
 
 def contact(request):
     context = locals()
-    templates = 'contact.html'
+    templates = 'contact.php'
     return render(request, templates, context)
+

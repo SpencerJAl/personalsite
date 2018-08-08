@@ -2,9 +2,6 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image:url(landingpage/media/code,jpg);
-    background-repeat: no-repeat;
-    background-position: fixed;
 }
 html, body{
     height:100%;
@@ -53,7 +50,12 @@ main {
     margin-top: 5px;
     text-align: center;
     color:#222233;
+    font-weight: 650;
     
+}
+#desktop-img{
+width:50%;
+height: 50%;
 }
 #work-info{
     background-color: #505050;
@@ -77,6 +79,9 @@ nav {
 }
 #mobile{
     display:none;
+}
+.bold-text{
+    font-weight:900;
 }
 
 #linkedin{
@@ -123,6 +128,10 @@ footer{
     }
     .desktop{
         display:none;
+    }
+    #mob-img{
+        width:100% !important;
+        height: 25% !important;
     }
     #mobile{
         display:block;        

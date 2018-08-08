@@ -1,11 +1,11 @@
-{% extends 'base.html' %}
+{% extends 'base.php' %}
 
 {% block content %}
-
+<?php include('email.php'); ?>
 <div id="content-info">
     <h1>Contact</h1>
     <p>Want to contact Alexander for jobs? Fill in this contact form below and he will get back to within 48 hours</p>
-      <form id="contact-form">
+      <form id="contact-form" action="" method="post">
        <div class="input-field">
         <input type="text" id="name" name="name" placeholder="Your Name" class="validate" required>
         <label>Name</label>
