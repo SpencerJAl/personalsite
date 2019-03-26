@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+# File which setup's URL address.
 def index(request):
     context = locals()
     templates = 'index.html'
